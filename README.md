@@ -1,7 +1,8 @@
 # Trivo front
 
-Create .env file from .env.example. Set backend api url.
-Install node modules
+- Create .env file from .env.example <br>
+- Set backend api url <br>
+- Install node modules
 ```
 npm install
 ```
