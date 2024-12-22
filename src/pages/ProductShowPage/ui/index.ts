@@ -1,0 +1,1 @@
+export { ProductShowPage } from "./ProductShowPage";

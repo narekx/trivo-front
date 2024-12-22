@@ -1,0 +1,1 @@
+export { CategoryCreatePage } from "./CategoryCreatePage";

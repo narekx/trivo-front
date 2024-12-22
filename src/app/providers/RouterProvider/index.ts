@@ -1,0 +1,1 @@
+export { provide as RouterProvider } from "./provider";

@@ -1,0 +1,1 @@
+export { CategoryShowPage } from "./CategoryShowPage.tsx";

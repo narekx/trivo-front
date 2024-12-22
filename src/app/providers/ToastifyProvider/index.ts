@@ -1,0 +1,1 @@
+export {provide as ToastifyProvider} from "./provider"
