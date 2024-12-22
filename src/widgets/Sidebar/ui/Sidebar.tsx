@@ -1,4 +1,4 @@
-import { Menu } from "antd";
+import {Layout, Menu} from "antd";
 import React, {useMemo} from "react";
 import Sider from "antd/es/layout/Sider";
 import { useLocation, useNavigate } from "react-router";
@@ -22,7 +22,11 @@ export const Sidebar: React.FC<SidebarProps> = (props: SidebarProps): React.Reac
   }, [currentRoute]);
 
   return (
-    <Sider collapsible collapsed={collapsed} onCollapse={() => onCollapse(!collapsed)}>
+    <Sider
+      collapsible
+      collapsed={collapsed}
+      onCollapse={() => onCollapse(!collapsed)}
+    >
       <div style={{ height: 64, color: '#fff', textAlign: 'center', lineHeight: '64px', fontWeight: 'bold' }}>
         TRIVO
       </div>
