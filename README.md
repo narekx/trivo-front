@@ -12,3 +12,5 @@ To run
 npm run dev
 ```
 
+Versions
+- node 20.15
